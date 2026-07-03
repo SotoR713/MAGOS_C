@@ -2,8 +2,8 @@
 {
     internal class CatalogoCaracteres
     {
-        public static readonly Dictionary<char,int>ValoracionCaracter  = new()
-               {
+        public static readonly Dictionary<char, int> ValoracionCaracter = new()
+        {
             { 'a', 1 },
             { 'b', 2 },
             { 'c', 3 },
@@ -30,9 +30,9 @@
             { 'x', 4 },
             { 'y', 5 },
             { 'z', 6 }
-    };
+        };
 
 
 
-}
+    }
 }
