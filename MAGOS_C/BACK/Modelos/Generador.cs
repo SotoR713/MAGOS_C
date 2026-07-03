@@ -1,13 +1,17 @@
 ﻿using MAGOS_C.CONFIGURACION;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MAGOS_C.BACK.Modelos
 {
     internal class Generador
     {
-        public int Aleatorio(int numero)
-        { 
-            int dado = (numero * Configuracion.Multiplica + Configuracion.Incrementa )% Configuracion.Modela;
-            return dado;
+        private int Dado { get; }
+
+        private Generador(int dado)
+        {
+            Dado = dado;
+
         }
     }
 }
+
