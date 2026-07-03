@@ -7,18 +7,16 @@ namespace MAGOS_C.BACK.Funciones
     internal class Calculadora
     {
 
-        public int raiz_digital(int numero)
+        public static int RaizDigital(int numero)
         {
+            int suma = 0;
             while (numero >= 10)
             {
-                int suma = 0;
-                {
-                    foreach (char i in numero.ToString())
-                        suma += int.Parse(i.ToString());
-                    numero = suma;
-                    return numero;
-                }
+                foreach (char i in numero.ToString())
+                    suma += int.Parse(i.ToString());
+                numero = suma;
             }
+            return numero;
         }
     }
 }
