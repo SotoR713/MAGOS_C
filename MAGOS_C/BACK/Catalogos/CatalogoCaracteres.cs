@@ -1,37 +1,35 @@
-﻿using MAGOS_C.BACK.Clases;
-
-namespace MAGOS_C.BACK.Catalogos
+﻿namespace MAGOS_C.BACK.Catalogos
 {
     internal class CatalogoCaracteres
     {
-        public static readonly List<ValoracionCaracter> ListaCaracteres = new()
+        public static readonly Dictionary<char,int>ValoracionCaracter  = new()
                {
-        new ValoracionCaracter("a", 1),
-        new ValoracionCaracter("b", 2),
-        new ValoracionCaracter("c", 3),
-        new ValoracionCaracter("d", 4),
-        new ValoracionCaracter("e", 5),
-        new ValoracionCaracter("f", 6),
-        new ValoracionCaracter("g", 7),
-        new ValoracionCaracter("h", 8),
-        new ValoracionCaracter("i", 9),
-        new ValoracionCaracter("j", 0),
-        new ValoracionCaracter("k", 1),
-        new ValoracionCaracter("l", 2),
-        new ValoracionCaracter("m", 3),
-        new ValoracionCaracter("n", 4),
-        new ValoracionCaracter("o", 5),
-        new ValoracionCaracter("p", 6),
-        new ValoracionCaracter("q", 7),
-        new ValoracionCaracter("r", 8),
-        new ValoracionCaracter("s", 9),
-        new ValoracionCaracter("t", 0),
-        new ValoracionCaracter("u", 1),
-        new ValoracionCaracter("v", 2),
-        new ValoracionCaracter("w", 3),
-        new ValoracionCaracter("x", 4),
-        new ValoracionCaracter("y", 5),
-        new ValoracionCaracter("z", 6)
+            { 'a', 1 },
+            { 'b', 2 },
+            { 'c', 3 },
+            { 'd', 4 },
+            { 'e', 5 },
+            { 'f', 6 },
+            { 'g', 7 },
+            { 'h', 8 },
+            { 'i', 9 },
+            { 'j', 0 },
+            { 'k', 1 },
+            { 'l', 2 },
+            { 'm', 3 },
+            { 'n', 4 },
+            { 'o', 5 },
+            { 'p', 6 },
+            { 'q', 7 },
+            { 'r', 8 },
+            { 's', 9 },
+            { 't', 0 },
+            { 'u', 1 },
+            { 'v', 2 },
+            { 'w', 3 },
+            { 'x', 4 },
+            { 'y', 5 },
+            { 'z', 6 }
     };
 
 
