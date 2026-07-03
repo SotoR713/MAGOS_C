@@ -1,10 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MAGOS_C.BACK.Clases
+﻿namespace MAGOS_C.BACK.Clases
 {
     internal class Evento
     {
+        public string Nombre { get; }
+        public string Caracter { get; }
+
+        public Evento(string nombre, string caracter)
+        {
+            Nombre = nombre;
+            Caracter = caracter;
+        }
+
+
+
     }
 }
