@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MAGOS_C.BACK.Funciones
+﻿namespace MAGOS_C.BACK.Servicios
 {
     internal class Fabrica
     {

@@ -1,4 +1,4 @@
-﻿namespace MAGOS_C.BACK.Clases
+﻿namespace MAGOS_C.BACK.Modelos
 {
     //aqui se crea la estructura basica de los elementos, donde cada uno se obligara a tener un nombre, un elemento al que es fuerte y otro al que es debil
     internal class Elemento

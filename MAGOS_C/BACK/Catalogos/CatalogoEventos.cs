@@ -1,8 +1,8 @@
-﻿using MAGOS_C.BACK.Clases;
+﻿using MAGOS_C.BACK.Modelos;
 
 namespace MAGOS_C.BACK.Catalogos
 {
-    internal class CatalogoEventos
+    internal static class CatalogoEventos
     {
 
 // los 4 eventos posibles durante el trayecto, pelea con un rival leve, contra un gran jefe, curarte o cofre misterioso

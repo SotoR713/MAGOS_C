@@ -1,4 +1,4 @@
-﻿namespace MAGOS_C.BACK.Clases
+﻿namespace MAGOS_C.BACK.Modelos
 {
     internal class Evento
     {

@@ -1,10 +1,12 @@
-﻿namespace MAGOS_C.BACK.Clases
+﻿using MAGOS_C.CONFIGURACION;
+
+namespace MAGOS_C.BACK.Modelos
 {
     internal class Generador
     {
-        public static int Aleatorio(int numero)
+        public int Aleatorio(int numero)
         { 
-            int dado = (numero * 120295 + 713 )% 240214;
+            int dado = (numero * Configuracion.Multiplica + Configuracion.Incrementa )% Configuracion.Modela;
             return dado;
         }
     }

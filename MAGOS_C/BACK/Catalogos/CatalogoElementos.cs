@@ -1,4 +1,4 @@
-﻿using MAGOS_C.BACK.Clases;
+﻿using MAGOS_C.BACK.Modelos;
 
 namespace MAGOS_C.BACK.Catalogos
 {

@@ -2,7 +2,7 @@
 {
     internal class Calculadora
     {
-    //Raiz digital es una reduccion del numero ingresado a solo un digito, sumando todos los digitos hasta que quede uno
+        //Raiz digital es una reduccion del numero ingresado a solo un digito, sumando todos los digitos hasta que quede uno
         public static int RaizDigital(int numero)
         {
             while (numero >= 10)
@@ -15,10 +15,4 @@
             return numero;
         }
     }
-
-    //internal class CrearElemento(int numeroDado)
-    ////Crear un elemento asigna con el generador un numero aleatorio y tomando el ultimo digito le asigna un elemento de la lista de elementos
-    //{
-
-    //}
 }
