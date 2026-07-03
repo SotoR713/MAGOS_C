@@ -1,9 +1,9 @@
-﻿namespace MAGOS_C.BACK.Funciones
+﻿namespace MAGOS_C.BACK.Servicios
 {
     internal class Calculadora
     {
+    //Raiz digital es una reduccion del numero ingresado a solo un digito, sumando todos los digitos hasta que quede uno
         public static int RaizDigital(int numero)
-        //Raiz digital es una reduccion del numero ingresado a solo un digito, sumando todos los digitos hasta que quede uno
         {
             while (numero >= 10)
             {
