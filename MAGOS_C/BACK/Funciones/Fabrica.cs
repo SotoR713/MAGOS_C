@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MAGOS_C.BACK.Clases
+namespace MAGOS_C.BACK.Funciones
 {
-    internal class Generadores
+    internal class Fabrica
     {
     }
 }
