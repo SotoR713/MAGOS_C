@@ -4,16 +4,16 @@ namespace MAGOS_C.BACK.Modelos
 {
     internal class Generador
     {
-        private int _dado; 
+        private long _dado; 
 
-        public Generador(int dado)
+        public Generador(long dado)
         {
             _dado = dado;
 
         }
-        public int Aleatorio()
+        public long Aleatorio()
         {
-            _dado = (_dado * Configuracion.Multiplica + Configuracion.Incrementa) / Configuracion.Modela;
+            _dado = (_dado * Configuracion.Multiplica + Configuracion.Incrementa) % Configuracion.Modela;
             return _dado;
         }
     }
