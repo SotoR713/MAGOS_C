@@ -13,7 +13,7 @@ namespace MAGOS_C.BACK.Modelos
         }
         public int Aleatorio()
         {
-            _dado = (_dado * Configuracion.Multiplica + Configuracion.Incrementa) % Configuracion.Modela;
+            _dado = (_dado * Configuracion.Multiplica + Configuracion.Incrementa) / Configuracion.Modela;
             return _dado;
         }
     }
